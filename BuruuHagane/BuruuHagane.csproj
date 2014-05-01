@@ -40,6 +40,7 @@
     <Compile Include="Core\Protobuff\RiakKvPB.cs" />
     <Compile Include="Core\Protobuff\RiakPB.cs" />
     <Compile Include="Core\Protobuff\RiakYokozunaPB.cs" />
+    <Compile Include="Core\Protobuff\RiakPing.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
