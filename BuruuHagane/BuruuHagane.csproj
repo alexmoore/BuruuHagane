@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>12.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F4D3F255-89C3-4BD4-8689-4D930FAAEDB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BuruuHagane</RootNamespace>
@@ -40,7 +38,10 @@
     <Compile Include="Core\Protobuff\RiakKvPB.cs" />
     <Compile Include="Core\Protobuff\RiakPB.cs" />
     <Compile Include="Core\Protobuff\RiakYokozunaPB.cs" />
-    <Compile Include="Core\Protobuff\RiakPing.cs" />
+    <Compile Include="Util\RiakMessageCodes.cs" />
+    <Compile Include="Core\RiakMessage.cs" />
+    <Compile Include="Util\RiakPBIndices.cs" />
+    <Compile Include="Core\RiakMessageTranslator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -48,5 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\" />
+    <Folder Include="Util\" />
   </ItemGroup>
 </Project>

@@ -1,8 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BuruuHagane.Test/Integration/PBIntegrationTest.cs">
+    <Files>
+      <File FileName="BuruuHagane.Test/Integration/PBIntegrationTest.cs" Line="39" Column="48" />
+      <File FileName="BuruuHagane/Core/Protobuff/RiakPing.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/alex/Projects/BuruuHagane/BuruuHagane.Test/Integration/PBIntegrationTest.cs" line="28" column="39" />
+      <Breakpoint file="/Users/alex/Projects/BuruuHagane/BuruuHagane.Test/Integration/PBIntegrationTest.cs" line="45" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

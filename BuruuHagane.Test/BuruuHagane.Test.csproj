@@ -31,6 +31,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework" />
+    <Reference Include="protobuf-net">
+      <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -38,5 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Integration\PBIntegrationTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuruuHagane\BuruuHagane.csproj">
+      <Project>{F4D3F255-89C3-4BD4-8689-4D930FAAEDB8}</Project>
+      <Name>BuruuHagane</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
